@@ -77,7 +77,7 @@ function gatherSupplies(suppliesToLookFor) {
 //     "JARVIS has found some canned peaches!"
 // Lastly, your function would output the following value:
 //     5
-// Because 5 total targets were found while out foraging today. 
+// Because 5 total targets were found while out foraging today
 
 let objectsFound = ["insulin", "oatmeal", "raider", "zombie", "canned peaches"];
 
@@ -94,4 +94,4 @@ function raiderAvoidancePlan(targetsFoundWhileForaging) {
     return targetsFoundWhileForaging.length;
 }
 
-raiderAvoidancePlan(objectsFound);
+raiderAvoidancePlan(objectsFound);  
